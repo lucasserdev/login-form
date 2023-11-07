@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px){
+    main {
+        display: flex;
+        
+    }
+
+    section#login {
+        display: block;
+        width: 720px;
+        height: 900px;
+        border: 1px solid red;
+        margin: 0;
+    }
+    
+    section#imagem {
+        display: block;
+        width: 720px;
+        height: 900px;
+
+        background-image: url(../assets/side-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

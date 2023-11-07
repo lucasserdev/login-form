@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root {
+    --font1: 'Roboto';
+    --font2: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-color: #191816;
+    display: flex;
+    height: 100%;
+}
+
+section#login {
+    display: block;
+    width: 375px;
+    height: 812px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+header {
+    width: 334px;
+    height: 112px;
+
+    margin: 40px 21px 27px 20px;
+}
+
+header > div#logo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+header > div#logo > h3 {
+    color: #D5CCB6;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+header > h1 {
+    color: #D4CCB6;
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header > p {
+    color: #AFB6C2;
+    font-family: var(--font1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form {
+    margin: 0px 20px
+}
+
+form > div.logar > label {
+    color: #AFB6C2;
+    font-family: var(--font2);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form >div.logar {
+    margin-bottom: 20px;
+}
+
+div.campo {
+    border: 1px solid #FFC632;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+}
+
+div.campo > input {
+    position: absolute;
+    transform: translateY(4px);
+    border: none;
+    background-color: #191816;
+    margin-left: 5px;
+}
+
+div.campo2 {
+    border: 1px solid #868686;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+}
+
+div.campo2 > input {
+    position: absolute;
+    transform: translateY(4px);
+    border: none;
+    background-color: #191816;
+    margin-left: 5px;
+}
+
+section#imagem {
+    display: none;
+}
