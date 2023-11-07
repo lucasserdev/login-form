@@ -26,7 +26,6 @@ section#login {
     display: block;
     width: 375px;
     height: 812px;
-    border: 1px solid red;
     margin: auto;
 }
 
@@ -109,6 +108,57 @@ div.campo2 > input {
     background-color: #191816;
     margin-left: 5px;
 }
+
+div.check {
+    display: flex;
+    
+}
+
+form div.check > label {
+    padding-left: 5px;
+    color: #A9AFB9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div.check > a {
+    padding-left: 105px;
+    text-decoration: none;
+    color: #FFC632;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 21px;
+    width: 334px;
+    height: 51px;
+    border-radius: 4px;
+    background-color: #FFC632;
+    color: black;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+p#footer {
+    margin-top: 14px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #FFC632;
+    font-weight: 400;
+    font-family: var(--font2);
+}
+
+p#footer > a {
+    text-decoration: none;
+    color: #FFC632;
+    font-weight: 600;
+}
+
 
 section#imagem {
     display: none;
